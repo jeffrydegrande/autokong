@@ -1,0 +1,18 @@
+{
+   "api": {
+     "preserve_host": true,
+     "strip_path": true
+   },
+
+   "plugins": {
+           "keyauth" : {
+              "key_names" : [
+                 "Authentication"
+              ],
+              "hide_credentials" : false
+           },
+           "cors" : {
+              "credentials" : true,
+              "preflight_continue" : false
+           }
+   }
